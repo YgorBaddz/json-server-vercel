@@ -1,9 +1,25 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "user": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "role": "admin",
+      "email": "admin@in.com",
+      "phone": "9876543210"
+    },
+    {
+      "id": 2,
+      "name": "Admin User1",
+      "email": "admin@in.com",
+      "phone": "9876543210",
+      "role": "staff"
+    },
+    {
+      "id": 3,
+      "name": "Admin User23",
+      "email": "admin@in.com",
+      "phone": "1608994788",
+      "role": "admin"
+    }
+  ]
 }
