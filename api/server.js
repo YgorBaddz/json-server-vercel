@@ -13,7 +13,6 @@ const server = jsonServer.create();
 
 // Comment out to allow write operations
 const router = jsonServer.router("db.json");
-// api/server.js
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
