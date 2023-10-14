@@ -1,6 +1,6 @@
 // See https://github.com/typicode/json-server#module
 const jsonServer = require("json-server");
-
+require("os").tmpdir;
 const server = jsonServer.create();
 
 // Uncomment to allow write operations
